@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina+2|Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+.shinegrab {
+    color: white;
+}
+#header {
+    font-size: 70px;
+    max-width: 100%;
+    padding: 0%;
+    margin:0;
+    text-align:center;
+    font-family: "Baloo Bhaina 2", cursive;
+}
+.navbg {
+    background-color: hsl(216, 92%, 14%);
+}
+nav {
+    text-align: center;
+    font-size: large;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#box {
+    width: 150px;
+    height: 150px;
+    display: none;
+    position: relative; 
+}
+
+h1 {
+    font-size: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    vertical-align: center;
+}
+h2 {
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    vertical-align: center;
+}
+.links {
+    padding: 15px 25px;
+    color: cornflowerblue;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+}
+.links:hover {
+    background-color: rgb(108, 0, 60);
+}
+.footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1;
+    margin: 0 auto;
+    max-width: 1020px;
+    width: 98%;
+    padding: 1%;
+    background-color:#60875b;
+    color: white;
+    text-align: center;
+}
+#p {
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    padding: 1%;
+}
+#wrapper {
+    padding: 1px;
+	margin: 25px auto;
+	max-width: 1020px;
+	width: 100%;
+    background-color:hsla(229, 100%, 13%, 0.61) ;
+	border: 3px solid rgb(108, 0, 60);
+}
+#pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+#aboutpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+.bg2 {
+    background-image: url("bg3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+  }
+  
+  input[type=submit] {
+    background-color:#FFcc00;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(108, 0, 60);
+  }
+  
+.container {
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Righteous', cursive;
+    color: whitesmoke;
+  }
+  a {
+    color: hotpink;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    max-width: 100%;
+    max-height: 100%;
+    justify-items: center;
+  }
+  .center {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+.tain {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 200px 200px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#pic1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#pic3 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+#pic4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+#printTime {
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    padding: 1%;
+}
